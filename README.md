@@ -1,2 +1,24 @@
 # building-high-conversion-web-forms
 A guide to building well structured forms for the web
+
+### Efficient Forms
+* Forms should be well guided and similar inputs should be combined if possible to create a better flow for users
+* Forms should have well defined validation messages for simpler flow and less confusion
+* Forms should be well structured in terms of content and screen size
+* __Understand the goal...__ forms should be quick and easy to finish
+* How to choose the best input type?
+    * There are many different input types available with HTML5 (i.e., time, date, url etc.). Take advantage of these formats to create better form filling experience for users
+    * Try to use dropdowns for smaller menu items (less than 5 preferably)
+    * Use datalist instead of dropdowns if you want to provide your users with both optional choices and customizable additions
+        ```html
+          <input list="events">   
+              <!--input 'list' attribute and datalist 'id' attribute must be same-->
+              <datalist id="events">  
+                  <option value="Party"></option>
+                  <option value="Meeting"></option>
+                  <option value="Conference Talk"></option>
+                  <option value="Sports Game"></option>
+              </datalist>
+        ```    
+* Try to limit forms if possible, otherwise at least make sure to help users out while filling with autofill or other information that you already know about the user
+* Think about forms as the best, quickest way to get some info from users to provide a service
