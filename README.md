@@ -91,3 +91,11 @@ A guide to building well structured forms for the web
 * It basically provides a way for users to know whether or not they are filling the form properly
 * It provides great direction and guidelines for solutions to validation errors 
 * We can set both build in validation for inputs ("max", "minLength", "required") or custom validations as choose with [setCustomValidity()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/setCustomValidity)
+
+
+### Form Principles
+* Make forms short and quick (implement autofill if possible)
+* Provide helpful prompt (with label elements or placeholder attributes)
+* Provide immediate feedback (with progress bar or success validation messages) if possible to keep users focused and engaged in filling the form
+
+
