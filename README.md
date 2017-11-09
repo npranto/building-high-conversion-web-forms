@@ -98,4 +98,7 @@ A guide to building well structured forms for the web
 * Provide helpful prompt (with label elements or placeholder attributes)
 * Provide immediate feedback (with progress bar or success validation messages) if possible to keep users focused and engaged in filling the form
 
-
+### Touch Support
+* __Uniquely important__, psuedo classes states (hover, focus, and active) can be different in different devices with touch support, i.e., a simple hold on a button may not produce same effect on an iOS device compared to an Android, so always verify in different devices for proper effect
+* Make sure to use "touch" related DOM events to apply effects or actions based on touch actions on touch control devices
+ 
